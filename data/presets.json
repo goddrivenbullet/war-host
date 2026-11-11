@@ -1,0 +1,74 @@
+{
+  "ironLegion": {
+    "name": "Iron Legion",
+    "style": "shieldWall",
+    "composition": { "infantry": 64, "archers": 20, "cavalry": 12, "horseArchers": 4 },
+    "engines": { "trebuchet": 0, "catapult": 2, "ballista": 4 },
+    "loadouts": {
+      "infantry": { "weapon": "spear", "armor": "scale", "shield": "tower" },
+      "archers": { "weapon": "crossbow", "armor": "mail", "shield": "buckler" },
+      "cavalry": { "weapon": "sword", "armor": "mail", "shield": "kite" },
+      "horseArchers": { "weapon": "shortbow", "armor": "padded", "shield": "none" }
+    }
+  },
+  "horseLords": {
+    "name": "Horse Lords",
+    "style": "cavalryFlank",
+    "composition": { "infantry": 22, "archers": 6, "cavalry": 38, "horseArchers": 34 },
+    "engines": { "trebuchet": 0, "catapult": 0, "ballista": 2 },
+    "loadouts": {
+      "infantry": { "weapon": "spear", "armor": "padded", "shield": "round" },
+      "archers": { "weapon": "shortbow", "armor": "cloth", "shield": "none" },
+      "cavalry": { "weapon": "lance", "armor": "mail", "shield": "kite" },
+      "horseArchers": { "weapon": "composite", "armor": "padded", "shield": "none" }
+    }
+  },
+  "castleHost": {
+    "name": "Castle Host",
+    "style": "siegeFirst",
+    "composition": { "infantry": 50, "archers": 30, "cavalry": 14, "horseArchers": 0 },
+    "engines": { "trebuchet": 5, "catapult": 6, "ballista": 4 },
+    "loadouts": {
+      "infantry": { "weapon": "sword", "armor": "mail", "shield": "kite" },
+      "archers": { "weapon": "crossbow", "armor": "padded", "shield": "buckler" },
+      "cavalry": { "weapon": "lance", "armor": "plate", "shield": "kite" },
+      "horseArchers": { "weapon": "shortbow", "armor": "cloth", "shield": "none" }
+    }
+  },
+  "hillfolk": {
+    "name": "Hillfolk",
+    "style": "arrowStorm",
+    "composition": { "infantry": 46, "archers": 44, "cavalry": 5, "horseArchers": 5 },
+    "engines": { "trebuchet": 0, "catapult": 2, "ballista": 2 },
+    "loadouts": {
+      "infantry": { "weapon": "axe", "armor": "padded", "shield": "round" },
+      "archers": { "weapon": "longbow", "armor": "cloth", "shield": "none" },
+      "cavalry": { "weapon": "sabre", "armor": "padded", "shield": "round" },
+      "horseArchers": { "weapon": "shortbow", "armor": "cloth", "shield": "none" }
+    }
+  },
+  "freeCompany": {
+    "name": "Free Company",
+    "style": "allOutCharge",
+    "composition": { "infantry": 62, "archers": 14, "cavalry": 18, "horseArchers": 6 },
+    "engines": { "trebuchet": 0, "catapult": 2, "ballista": 2 },
+    "loadouts": {
+      "infantry": { "weapon": "axe", "armor": "mail", "shield": "round" },
+      "archers": { "weapon": "shortbow", "armor": "padded", "shield": "buckler" },
+      "cavalry": { "weapon": "mace", "armor": "mail", "shield": "round" },
+      "horseArchers": { "weapon": "composite", "armor": "cloth", "shield": "none" }
+    }
+  },
+  "steppeWind": {
+    "name": "Steppe Wind",
+    "style": "feignedRetreat",
+    "composition": { "infantry": 40, "archers": 14, "cavalry": 26, "horseArchers": 20 },
+    "engines": { "trebuchet": 0, "catapult": 1, "ballista": 2 },
+    "loadouts": {
+      "infantry": { "weapon": "sword", "armor": "padded", "shield": "round" },
+      "archers": { "weapon": "shortbow", "armor": "cloth", "shield": "none" },
+      "cavalry": { "weapon": "sabre", "armor": "mail", "shield": "round" },
+      "horseArchers": { "weapon": "composite", "armor": "padded", "shield": "none" }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format": "war-host-army",
+  "version": 1,
+  "name": "Dawn Riders",
+  "style": "feignedRetreat",
+  "composition": {
+    "infantry": 22,
+    "archers": 6,
+    "cavalry": 38,
+    "horseArchers": 34
+  },
+  "engines": {
+    "trebuchet": 0,
+    "catapult": 0,
+    "ballista": 2
+  },
+  "loadouts": {
+    "infantry": {
+      "weapon": "spear",
+      "armor": "padded",
+      "shield": "round"
+    },
+    "archers": {
+      "weapon": "shortbow",
+      "armor": "cloth",
+      "shield": "none"
+    },
+    "cavalry": {
+      "weapon": "lance",
+      "armor": "mail",
+      "shield": "kite"
+    },
+    "horseArchers": {
+      "weapon": "composite",
+      "armor": "padded",
+      "shield": "none"
+    }
+  }
+}

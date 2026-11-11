@@ -1,0 +1,16 @@
+{
+  "armor": {
+    "cloth":  { "label": "Cloth",  "defense": 0.05, "speed": 1.08, "morale": 0,  "tint": "team" },
+    "padded": { "label": "Padded", "defense": 0.22, "speed": 1.03, "morale": 3,  "tint": "#8a7550" },
+    "mail":   { "label": "Mail",   "defense": 0.42, "speed": 0.96, "morale": 8,  "tint": "#7d8186" },
+    "scale":  { "label": "Scale",  "defense": 0.52, "speed": 0.92, "morale": 11, "tint": "#8f8a6e" },
+    "plate":  { "label": "Plate",  "defense": 0.64, "speed": 0.85, "morale": 15, "tint": "#b9bec4" }
+  },
+  "shields": {
+    "none":    { "label": "No Shield", "melee": 0.00, "missile": 0.00, "speed": 1.00, "size": 0 },
+    "buckler": { "label": "Buckler",   "melee": 0.12, "missile": 0.08, "speed": 1.00, "size": 0.35 },
+    "round":   { "label": "Round",     "melee": 0.22, "missile": 0.34, "speed": 0.98, "size": 0.7 },
+    "kite":    { "label": "Kite",      "melee": 0.26, "missile": 0.44, "speed": 0.96, "size": 0.9 },
+    "tower":   { "label": "Tower",     "melee": 0.30, "missile": 0.62, "speed": 0.88, "size": 1.25 }
+  }
+}

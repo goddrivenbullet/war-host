@@ -1,0 +1,20 @@
+{
+  "name": "war-host",
+  "version": "0.1.0",
+  "description": "War Host: a local 3D medieval battle prototype with data-driven armies, styles, and loadouts.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test/sim.test.mjs"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

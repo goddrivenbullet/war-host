@@ -1,0 +1,28 @@
+{
+  "plain": {
+    "label": "Open Plain",
+    "blurb": "Flat ground, nowhere to hide. Speed decides it.",
+    "kind": "plain", "size": 900, "startGap": 300, "relief": 2.5, "detail": 1.2,
+    "grass": "#7d9a4a", "earth": "#8b7550"
+  },
+  "hills": {
+    "label": "Rolling Hills",
+    "blurb": "Two ridges and a valley. Uphill is slow; height lends arrows reach.",
+    "kind": "hills", "size": 900, "startGap": 330, "relief": 24, "detail": 5,
+    "grass": "#6f8f43", "earth": "#7f6a48"
+  },
+  "river": {
+    "label": "River Crossing",
+    "blurb": "Deep water. Three fords. Hold them or force them.",
+    "kind": "river", "size": 900, "startGap": 330, "relief": 3, "detail": 1.5,
+    "riverWidth": 34, "fords": [-190, 15, 210], "fordWidth": 40,
+    "grass": "#76984a", "earth": "#80694a"
+  },
+  "castle": {
+    "label": "Castle Approach",
+    "blurb": "A curtain wall, a gate, two narrow posterns. Engines break walls.",
+    "kind": "castle", "size": 900, "startGap": 340, "relief": 3, "detail": 1.5,
+    "wallOffset": 85, "gaps": [-170, 175], "gapWidth": 12, "gateWidth": 22,
+    "grass": "#7a9348", "earth": "#7d6a4e"
+  }
+}

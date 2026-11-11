@@ -1,0 +1,68 @@
+{
+  "shieldWall": {
+    "label": "Shield Wall",
+    "blurb": "Lock shields, hold the line, let them break on you.",
+    "formation": { "depth": 8, "spacing": 1.0, "archers": "behind", "cavalry": "wings" },
+    "infantry": { "mode": "hold", "speed": 0.75, "attack": 0.9, "defense": 1.6, "engage": 3.5, "leash": 6 },
+    "archers": { "mode": "hold", "target": "nearest", "fireRate": 1.0 },
+    "cavalry": { "mode": "reserve", "delay": 70, "target": "cavalry" },
+    "horseArchers": { "mode": "skirmish" },
+    "engines": { "target": "densest", "reload": 1.0 },
+    "morale": 14
+  },
+  "allOutCharge": {
+    "label": "All-Out Charge",
+    "blurb": "Every rank forward at the run. Win it in the first crash.",
+    "formation": { "depth": 4, "spacing": 1.35, "archers": "behind", "cavalry": "wings" },
+    "infantry": { "mode": "charge", "speed": 1.15, "attack": 1.3, "defense": 0.8, "engage": 14, "leash": 60 },
+    "archers": { "mode": "advance", "target": "nearest", "fireRate": 1.0 },
+    "cavalry": { "mode": "charge", "delay": 0, "target": "nearest" },
+    "horseArchers": { "mode": "close" },
+    "engines": { "target": "densest", "reload": 1.0 },
+    "morale": 10
+  },
+  "arrowStorm": {
+    "label": "Arrow Storm",
+    "blurb": "Archers to the front. Darken the sky before the lines meet.",
+    "formation": { "depth": 6, "spacing": 1.1, "archers": "front", "cavalry": "wings" },
+    "infantry": { "mode": "delayed", "delay": 55, "speed": 0.9, "attack": 1.0, "defense": 1.15, "engage": 6, "leash": 14 },
+    "archers": { "mode": "screen", "target": "nearest", "fireRate": 1.3 },
+    "cavalry": { "mode": "reserve", "delay": 80, "target": "archers" },
+    "horseArchers": { "mode": "skirmish" },
+    "engines": { "target": "densest", "reload": 1.0 },
+    "morale": 4
+  },
+  "cavalryFlank": {
+    "label": "Cavalry Flank",
+    "blurb": "Pin them in front, ride around the side, hit them from behind.",
+    "formation": { "depth": 6, "spacing": 1.15, "archers": "behind", "cavalry": "wings" },
+    "infantry": { "mode": "advance", "speed": 0.9, "attack": 1.0, "defense": 1.1, "engage": 8, "leash": 25 },
+    "archers": { "mode": "advance", "target": "infantry", "fireRate": 1.0 },
+    "cavalry": { "mode": "flank", "delay": 6, "target": "archers" },
+    "horseArchers": { "mode": "flank" },
+    "engines": { "target": "densest", "reload": 1.0 },
+    "morale": 6
+  },
+  "feignedRetreat": {
+    "label": "Feigned Retreat",
+    "blurb": "Fall back to draw them out, then turn and strike with fresh riders.",
+    "formation": { "depth": 5, "spacing": 1.2, "archers": "behind", "cavalry": "wings" },
+    "infantry": { "mode": "feint", "speed": 1.0, "attack": 1.15, "defense": 1.0, "engage": 9, "leash": 30 },
+    "archers": { "mode": "advance", "target": "nearest", "fireRate": 1.1 },
+    "cavalry": { "mode": "ambush", "delay": 90, "target": "nearest" },
+    "horseArchers": { "mode": "skirmish" },
+    "engines": { "target": "densest", "reload": 1.0 },
+    "morale": 8
+  },
+  "siegeFirst": {
+    "label": "Siege First",
+    "blurb": "Engines speak first. Advance through the breach they make.",
+    "formation": { "depth": 6, "spacing": 1.1, "archers": "behind", "cavalry": "rear" },
+    "infantry": { "mode": "delayed", "delay": 85, "speed": 0.9, "attack": 1.05, "defense": 1.2, "engage": 7, "leash": 20 },
+    "archers": { "mode": "hold", "target": "archers", "fireRate": 1.0 },
+    "cavalry": { "mode": "reserve", "delay": 100, "target": "nearest" },
+    "horseArchers": { "mode": "skirmish" },
+    "engines": { "target": "walls", "reload": 0.7 },
+    "morale": 6
+  }
+}

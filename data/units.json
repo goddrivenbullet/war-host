@@ -1,0 +1,46 @@
+{
+  "infantry": {
+    "label": "Infantry", "kind": "melee", "mounted": false,
+    "hp": 100, "walk": 2.6, "run": 4.6, "radius": 0.45, "morale": 68,
+    "weapons": ["sword", "spear", "axe", "mace"],
+    "armors": ["cloth", "padded", "mail", "scale", "plate"],
+    "shields": ["none", "buckler", "round", "kite", "tower"],
+    "regimentSize": 200
+  },
+  "archers": {
+    "label": "Archers", "kind": "missile", "mounted": false,
+    "hp": 80, "walk": 2.6, "run": 4.4, "radius": 0.45, "morale": 55,
+    "weapons": ["shortbow", "longbow", "crossbow"],
+    "armors": ["cloth", "padded", "mail"],
+    "shields": ["none", "buckler"],
+    "regimentSize": 160
+  },
+  "cavalry": {
+    "label": "Cavalry", "kind": "melee", "mounted": true,
+    "hp": 150, "walk": 4.5, "run": 10.5, "radius": 0.9, "morale": 74,
+    "weapons": ["lance", "sabre", "sword", "mace"],
+    "armors": ["cloth", "padded", "mail", "scale", "plate"],
+    "shields": ["none", "buckler", "round", "kite"],
+    "regimentSize": 100
+  },
+  "horseArchers": {
+    "label": "Horse Archers", "kind": "missile", "mounted": true,
+    "hp": 115, "walk": 5.0, "run": 10.0, "radius": 0.9, "morale": 60,
+    "weapons": ["composite", "shortbow"],
+    "armors": ["cloth", "padded", "mail"],
+    "shields": ["none", "buckler"],
+    "regimentSize": 100
+  },
+  "trebuchet": {
+    "label": "Trebuchet", "kind": "engine", "hp": 700, "radius": 3.2, "armor": 0.35,
+    "range": 340, "minRange": 70, "reload": 13, "damage": 150, "splash": 6.0, "projectile": "stone", "speed": 70
+  },
+  "catapult": {
+    "label": "Catapult", "kind": "engine", "hp": 450, "radius": 2.4, "armor": 0.3,
+    "range": 240, "minRange": 40, "reload": 8.5, "damage": 105, "splash": 4.2, "projectile": "stone", "speed": 60
+  },
+  "ballista": {
+    "label": "Ballista", "kind": "engine", "hp": 320, "radius": 1.8, "armor": 0.25,
+    "range": 210, "minRange": 10, "reload": 5.5, "damage": 120, "pierce": 6, "projectile": "bolt", "speed": 110
+  }
+}
